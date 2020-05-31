@@ -1,0 +1,438 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 269 260">
+  <defs>
+<!--    <animateTransform-->
+<!--      xlink:href="#gondola"-->
+<!--      attributeName="transform"-->
+<!--      type="skewX"-->
+<!--      values="0; -2; 0; 2; 0"-->
+<!--      dur="2s"-->
+<!--      begin="section.begin"-->
+<!--      repeatCount="indefinite"-->
+<!--      additive="sum"-->
+<!--    />-->
+<!--    <animateTransform-->
+<!--      xlink:href="#gondola"-->
+<!--      attributeName="transform"-->
+<!--      type="translate"-->
+<!--      values="0,0; 5,-1.5; 0,0; -5,-1.5; 0,0"-->
+<!--      dur="2s"-->
+<!--      begin="section.begin"-->
+<!--      repeatCount="indefinite"-->
+<!--      additive="sum"-->
+<!--    />-->
+
+<!--    <path id="keel-1" fill="#068e4d" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M82.46 103.88h9.16a3.29 3.29 0 013.29 3.3v5.71a3.29 3.29 0 01-3.29 3.3H74.8a1.32 1.32 0 01-1.32-1.32v-2a9 9 0 018.98-8.99z">-->
+<!--      <animateTransform-->
+<!--        begin="section.begin"-->
+<!--        attributeName="transform"-->
+<!--        type="translate"-->
+<!--        values="0 0; 0, -2; 0 0; 0, 2; 0 0"-->
+<!--        dur="2s"-->
+<!--        repeatCount="indefinite"-->
+<!--        additive="sum" />-->
+<!--    </path>-->
+<!--    <path id="keel-2" fill="#068e4d" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M82.46 137.93h9.16a3.29 3.29 0 003.29-3.3v-5.71a3.29 3.29 0 00-3.29-3.3H74.8a1.32 1.32 0 00-1.32 1.32v2a9 9 0 008.98 8.99z">-->
+<!--      <animateTransform-->
+<!--        begin="section.begin"-->
+<!--        attributeName="transform"-->
+<!--        type="translate"-->
+<!--        values="0 0; 0, -2; 0 0; 0, 2; 0 0"-->
+<!--        dur="2s"-->
+<!--        repeatCount="indefinite"-->
+<!--        additive="sum" />-->
+<!--    </path>-->
+
+
+<!--    <animate-->
+<!--      xlink:href="#dirigible"-->
+<!--      attributeType="CSS"-->
+<!--      attributeName="opacity"-->
+<!--      begin="mountains.begin"-->
+<!--      dur="1s"-->
+<!--      from="1"-->
+<!--      to="0"-->
+<!--      fill="freeze"-->
+<!--    />-->
+
+<!--    <animateTransform-->
+<!--      id="seat-transform"-->
+<!--      xlink:href="#seat"-->
+<!--      begin="mountains.begin + 0.3s"-->
+<!--      attributeName="transform"-->
+<!--      type="translate"-->
+<!--      from="-300"-->
+<!--      to="0"-->
+<!--      dur="0.3s"-->
+<!--      fill="freeze" />-->
+
+<!--    <animateTransform-->
+<!--      id="skis-transform"-->
+<!--      xlink:href="#skis"-->
+<!--      begin="seat-transform.begin + 0.1s"-->
+<!--      attributeName="transform"-->
+<!--      type="translate"-->
+<!--      from="-300"-->
+<!--      to="0"-->
+<!--      dur="0.3s"-->
+<!--      fill="freeze" />-->
+
+<!--    <animateTransform-->
+<!--      id="ficus-transform"-->
+<!--      xlink:href="#ficus"-->
+<!--      begin="seat-transform.begin + 0.1s"-->
+<!--      attributeName="transform"-->
+<!--      type="translate"-->
+<!--      from="-300"-->
+<!--      to="0"-->
+<!--      dur="0.3s"-->
+<!--      fill="freeze" />-->
+
+<!--    <animateTransform-->
+<!--      id="ficus-rotate"-->
+<!--      xlink:href="#ficus"-->
+<!--      begin="ficus-transform.begin + 0.25s"-->
+<!--      attributeName="transform"-->
+<!--      type="rotate"-->
+<!--      values="0, 30, 300; 0.2, 30, 300; -0.2, 30, 300; 0, 30, 300; 0.1, 30, 300; -0.1, 30, 300; 0, 30, 300"-->
+<!--      dur="1s"-->
+<!--      additive="sum" />-->
+
+<!--    <clipPath id="a">-->
+<!--      <path d="M220.52 120.53h-17.13a17.6 17.6 0 01-17.52-17.58V65.1a17.6 17.6 0 0117.52-17.58h17.13a17.6 17.6 0 0117.51 17.58v37.83a17.61 17.61 0 01-17.51 17.6z"/>-->
+<!--    </clipPath>-->
+
+<!--    <animateTransform-->
+<!--      id="clouds-transform"-->
+<!--      xlink:href="#clouds"-->
+<!--      begin="mountains.begin + 0.3s"-->
+<!--      attributeName="transform"-->
+<!--      type="translate"-->
+<!--      from="500"-->
+<!--      to="-50"-->
+<!--      dur="5s"-->
+<!--      repeatCount="indefinite"-->
+<!--      additive="sum" />-->
+  </defs>
+
+  <g id="dirigible">
+    <g id="gondola">
+<!--      <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M134.67 179.82h48.36a13.27 13.27 0 0013-10.65l3.74-18.32h-68.18v25.89a3.09 3.09 0 003.08 3.08z"/>-->
+<!--      <path fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M195.02 172.23h-9.22a8.31 8.31 0 01-8.28-8.31v-13.07"/>-->
+<!--      <path fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M144.87 162.42h-2.05a3.45 3.45 0 00-3.43 3.45v2.92c0 1.9 1.53 3.44 3.43 3.45h2.05a3.45 3.45 0 003.43-3.45v-2.92c0-1.9-1.53-3.44-3.43-3.45z"/>-->
+<!--      <path id="window" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M163.48 162.42h-2.05a3.45 3.45 0 00-3.43 3.45v2.92c0 1.9 1.53 3.44 3.43 3.45h2.05a3.45 3.45 0 003.43-3.45v-2.92c0-1.9-1.53-3.44-3.43-3.45z">-->
+<!--        <animate-->
+<!--          attributeType="CSS"-->
+<!--          attributeName="opacity"-->
+<!--          begin="mountains.begin"-->
+<!--          dur="0.1s"-->
+<!--          from="1"-->
+<!--          to="0"-->
+<!--          fill="freeze"-->
+<!--        />-->
+<!--      </path>-->
+    </g>
+
+<!--    <use xlink:href="#keel-1" />-->
+<!--    <use xlink:href="#keel-2" />-->
+
+    <path d="M205,227.08c43.38,0,74.86-15.55,74.86-37s-31.48-37-74.86-37c-27.94,0-55.36,13.53-73.46,24.87a14.3,14.3,0,0,0,0,24.21c18.09,11.33,45.52,24.87,73.46,24.87" transform="translate(-40.77 -69.46)" fill="#068e4d"/>
+
+    <path fill="#36e69a" d="M85.34 120.97a12.93 12.93 0 016.07-11.43c16.74-10.5 44.58-24.68 72.81-24.68 44.81 0 73.64 16 73.64 35.75v.37"/>
+    <path fill="#25b774" d="M91.41 116.66c16.74-4.27 44.58-10 72.81-10 44.53 0 73.26 6.43 73.61 14.38v.51c-.85 7.86-29.45 14.17-73.6 14.17-28.23 0-56.07-5.76-72.81-10-3.79-1-5.79-2.53-6-4.13v-.51c.13-1.69 2.15-3.36 6.1-4.37">
+      <animate
+        id="section"
+        dur="2s"
+        attributeName="d"
+        values="
+          M91.41 116.66c16.74-4.27 44.58-10 72.81-10 44.53 0 73.26 6.43 73.61 14.38v.51c-.85 7.86-29.45 14.17-73.6 14.17-28.23 0-56.07-5.76-72.81-10-3.79-1-5.79-2.53-6-4.13v-.51c.13-1.69 2.15-3.36 6.1-4.37;
+          M91.41 116.66c17.25-2.7 44.58-6.63 72.81-6.63 44.53 0 69 3.7 73.61 11.01v.51c-.85 7.86-29.45 18.93-73.6 18.93-28.23 0-58.08-8.71-72.81-14.76-3.63-1.49-5.79-2.53-6-4.13v-.51c.13-1.69 2.15-3.36 6.1-4.37;
+          M91.41 116.66c16.74-4.27 44.58-10 72.81-10 44.53 0 73.26 6.43 73.61 14.38v.51c-.85 7.86-29.45 14.17-73.6 14.17-28.23 0-56.07-5.76-72.81-10-3.79-1-5.79-2.53-6-4.13v-.51c.13-1.69 2.15-3.36 6.1-4.37;
+          M91.41 116.66c15.2-6.63 44.58-15.72 72.81-15.72 44.53 0 73.26 12.15 73.61 20.1v.51c-4.28 7.86-30.9 10.22-73.6 10.22-28.23 0-57.4-3.86-72.81-6.05-3.88-.55-5.79-2.53-6-4.13v-.51c.13-1.69 2.15-3.36 6.1-4.37;
+          M91.41 116.66c16.74-4.27 44.58-10 72.81-10 44.53 0 73.26 6.43 73.61 14.38v.51c-.85 7.86-29.45 14.17-73.6 14.17-28.23 0-56.07-5.76-72.81-10-3.79-1-5.79-2.53-6-4.13v-.51c.13-1.69 2.15-3.36 6.1-4.37;
+          "
+        repeatCount="indefinite"
+        fill="freeze"
+      />
+    </path>
+
+    <path d="M205,227.08c43.38,0,74.86-15.55,74.86-37s-31.48-37-74.86-37c-27.94,0-55.36,13.53-73.46,24.87a14.3,14.3,0,0,0,0,24.21C149.63,213.54,177.06,227.08,205,227.08Z" transform="translate(-40.77 -69.46)" fill="none" stroke="#fff" stroke-width="2"/>
+
+<!--    <use xlink:href="#keel-1" transform="scale(1, -1) translate(0,-242)" />-->
+<!--    <use xlink:href="#keel-2" transform="scale(1, -1) translate(0,-242)" />-->
+
+<!--    <line x1="28.18" x2="91.09" y1="38.34" y2="38.34" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2">-->
+<!--      <animate-->
+<!--        begin="0s;line-1.end+2s"-->
+<!--        attributeName="stroke-opacity"-->
+<!--        dur="2s"-->
+<!--        values="0; 1; 1; 0"-->
+<!--        keyTimes="0; 0.1; 0.8; 1"-->
+<!--        fill="freeze" />-->
+<!--      <animateTransform-->
+<!--        id="line-1"-->
+<!--        begin="0s;line-1.end+2s"-->
+<!--        attributeName="transform"-->
+<!--        type="translate"-->
+<!--        from="170"-->
+<!--        to="0"-->
+<!--        dur="2s"-->
+<!--        fill="freeze" />-->
+<!--    </line>-->
+<!--    <path fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M1 28.08h35.29a12.4,12.4,0,1,1,24.8,0h17.93">-->
+<!--      <animate-->
+<!--        begin="0s;cloud-1.end+2s"-->
+<!--        attributeName="stroke-opacity"-->
+<!--        dur="2s"-->
+<!--        values="0; 1; 1; 0"-->
+<!--        keyTimes="0; 0.1; 0.8; 1"-->
+<!--        fill="freeze" />-->
+<!--      <animateTransform-->
+<!--        id="cloud-1"-->
+<!--        begin="0s;cloud-1.end+2s"-->
+<!--        attributeName="transform"-->
+<!--        type="translate"-->
+<!--        from="170"-->
+<!--        to="-5"-->
+<!--        dur="2s"-->
+<!--        fill="freeze" />-->
+<!--    </path>-->
+
+<!--    <line x1="218.19" x2="257.97" y1="23.72" y2="23.72" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-opacity="0">-->
+<!--      <animate-->
+<!--        begin="1.6s"-->
+<!--        attributeName="stroke-opacity"-->
+<!--        dur="2s"-->
+<!--        values="0; 1; 1; 0"-->
+<!--        keyTimes="0; 0.1; 0.85; 1"-->
+<!--        fill="freeze" />-->
+<!--      <animateTransform-->
+<!--        id="line-2"-->
+<!--        begin="1.6s"-->
+<!--        attributeName="transform"-->
+<!--        type="translate"-->
+<!--        from="0"-->
+<!--        to="-160"-->
+<!--        dur="3s"-->
+<!--        fill="freeze" />-->
+<!--    </line>-->
+<!--    <path fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M237.98 13.45h-27.36a12.4 12.4 0 10-24.8 0h-17.94" stroke-opacity="0">-->
+<!--      <animate-->
+<!--        begin="1.6s"-->
+<!--        attributeName="stroke-opacity"-->
+<!--        dur="2s"-->
+<!--        values="0; 1; 1; 0"-->
+<!--        keyTimes="0; 0.1; 0.85; 1"-->
+<!--        fill="freeze" />-->
+<!--      <animateTransform-->
+<!--        id="cloud-2"-->
+<!--        begin="1.6s"-->
+<!--        attributeName="transform"-->
+<!--        type="translate"-->
+<!--        from="0"-->
+<!--        to="-170"-->
+<!--        dur="2s"-->
+<!--        fill="freeze" />-->
+<!--    </path>-->
+<!--    <line x1="246.24" x2="268.43" y1="13.45" y2="13.45" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-opacity="0">-->
+<!--      <animate-->
+<!--        begin="1.6s"-->
+<!--        attributeName="stroke-opacity"-->
+<!--        dur="2s"-->
+<!--        values="0; 1; 1; 0"-->
+<!--        keyTimes="0; 0.1; 0.85; 1"-->
+<!--        fill="freeze" />-->
+<!--      <animateTransform-->
+<!--        id="line-2"-->
+<!--        begin="1.6s"-->
+<!--        attributeName="transform"-->
+<!--        type="translate"-->
+<!--        from="0"-->
+<!--        to="-170"-->
+<!--        dur="2s"-->
+<!--        fill="freeze" />-->
+<!--    </line>-->
+
+<!--    <line x1="65.48" x2="43.28" y1="110.03" y2="110.03" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2">-->
+<!--      <animate-->
+<!--        begin="-0.1s"-->
+<!--        attributeName="x2"-->
+<!--        values="43; 40; 43"-->
+<!--        dur="0.3s"-->
+<!--        repeatCount="indefinite" />-->
+<!--    </line>-->
+<!--    <line x1="65.48" x2="43.28" y1="131.77" y2="131.77" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2">-->
+<!--      <animate-->
+<!--        begin="0.1s"-->
+<!--        attributeName="x2"-->
+<!--        values="40; 43; 40"-->
+<!--        dur="0.3s"-->
+<!--        repeatCount="indefinite" />-->
+<!--    </line>-->
+<!--    <line x1="65.48" x2="28" y1="121.52" y2="121.52" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2">-->
+<!--      <animate-->
+<!--        begin="0s"-->
+<!--        attributeName="x2"-->
+<!--        values="24; 28; 24"-->
+<!--        dur="0.3s"-->
+<!--        repeatCount="indefinite" />-->
+<!--    </line>-->
+
+<!--    <path fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M249.17 258.42h-45.06l-32.08-31.3a1.89 1.89 0 00-2.44 0l-10.2 10.23a1.72 1.72 0 01-2.25 0l-19-20.17a2.4 2.4 0 00-3.1 0l-26.42 25.64a1.71 1.71 0 01-2.25 0l-2.63-2.92a1.71 1.71 0 00-2.31 0l-17.57 19.64H40.01">-->
+<!--      <animate-->
+<!--        id="mountains"-->
+<!--        begin="section.repeat(1) + 1s"-->
+<!--        dur="0.5s"-->
+<!--        attributeName="d"-->
+<!--        to="M249.17 258.42h-45.06 l-32.08 0 a1.89 1.89 0 00 0 0 l-10.2 0 a1.72 1.72 0 01 0 0 l-19 0 a2.4 2.4 0 00 0 0 l-26.42 0 a1.71 1.71 0 01 0 0 l-2.63 0 a1.71 1.71 0 00 0 0 l-17.57 0 H40.01"-->
+<!--        fill="freeze" />-->
+<!--    </path>-->
+  </g>
+
+<!--  <g transform="translate(8 34.5)">-->
+<!--    <path-->
+<!--      fill="none"-->
+<!--      stroke="#fff"-->
+<!--      stroke-width="2"-->
+<!--      d="M220.52 120.53h-17.13a17.6 17.6 0 01-17.52-17.58V65.1a17.6 17.6 0 0117.52-17.58h17.13a17.6 17.6 0 0117.51 17.58v37.83a17.61 17.61 0 01-17.51 17.6z"-->
+<!--      style="opacity: 0;" >-->
+<!--      <animate-->
+<!--        attributeType="CSS"-->
+<!--        attributeName="opacity"-->
+<!--        begin="mountains.begin"-->
+<!--        dur="0.2s"-->
+<!--        from="0"-->
+<!--        to="1"-->
+<!--        fill="freeze"-->
+<!--      />-->
+<!--      <animateTransform attributeName="transform"-->
+<!--                        type="translate"-->
+<!--                        values="116 120; 0 0"-->
+<!--                        keyTimes="0; 1"-->
+<!--                        dur="0.5s"-->
+<!--                        begin="mountains.begin"-->
+<!--                        additive="sum" />-->
+<!--      <animateTransform attributeName="transform"-->
+<!--                        type="scale"-->
+<!--                        values="0.18 0.15; 1 1"-->
+<!--                        keyTimes="0; 1"-->
+<!--                        dur="0.5s"-->
+<!--                        begin="mountains.begin"-->
+<!--                        additive="sum" />-->
+<!--    </path>-->
+
+<!--    <g id="skis" transform="translate(-300)">-->
+<!--      <path fill="#fff" d="M36.66 222.89a2.2 2.2 0 01-2-2.36L48.32 27.36c1.1-15.49-4.8-21.92-8.75-24.47A1.35 1.35 0 0140.1.44C48.52-.9 67.7-.9 65.52 29.29L51.95 221.77a2.2 2.2 0 01-2.35 2z"/>-->
+<!--      <path fill="#fff" d="M70.02 223.27a2.2 2.2 0 01-2.17-2.23l2.24-193.63C70.28 11.88 64.02 5.8 59.93 3.5a1.35 1.35 0 01.39-2.47c8.36-1.9 27.49-3 27.15 27.28l-2.25 192.93a2.2 2.2 0 01-2.22 2.18z"/>-->
+<!--    </g>-->
+
+<!--    <g id="seat" transform="translate(-300)">-->
+<!--      <path fill="#a67ee5" d="M203.02 154.92h-60.74v-14.19h55.09a9.92 9.92 0 019.9 9.93 4.26 4.26 0 01-4.25 4.25"/>-->
+<!--      <path fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2" d="M203.02 154.92h-60.74v-14.19h55.09a9.92 9.92 0 019.9 9.93 4.26 4.26 0 01-4.25 4.26z"/>-->
+<!--      <path fill="#a67ee5" d="M130.99 223.41h-13.97l-6.31-41.59h13.97l6.31 41.59z"/>-->
+<!--      <path fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2" d="M130.99 223.41h-13.97l-6.31-41.59h13.97l6.31 41.59z"/>-->
+<!--      <path fill="#a67ee5" d="M180.54 223.41h-13.96l-6.3-41.59h13.96l6.3 41.59z"/>-->
+<!--      <path fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2" d="M180.54 223.41h-13.96l-6.3-41.59h13.96l6.3 41.59z"/>-->
+<!--      <path fill="#a67ee5" d="M226.85 167.55h-55.89a5.59 5.59 0 01-5.53-4.77l-10.86-72.24a17.71 17.71 0 00-12.49-31.31H87l-.32 102.87 15.77 23.35 47.19 8.39a12.3 12.3 0 004.22.75h73a13.53 13.53 0 000-27.06"/>-->
+<!--      <path fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2" d="M226.85 167.55h-55.89a5.59 5.59 0 01-5.53-4.77l-10.86-72.24a17.71 17.71 0 00-12.49-31.31H87l-.32 102.87 15.77 23.35 47.19 8.39a12.3 12.3 0 004.22.75h73a13.53 13.53 0 00-.01-27.04z"/>-->
+<!--      <path fill="#a67ee5" d="M107.94 162.79L97.08 90.55a17.71 17.71 0 10-29-13.61 18 18 0 00.79 5.25l15.3 101.91a12.36 12.36 0 0012.21 10.54h73a13.53 13.53 0 000-27.05h-55.91a5.62 5.62 0 01-5.53-4.78"/>-->
+<!--      <path fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2" d="M107.94 162.79L97.08 90.55a17.71 17.71 0 10-29-13.61 18 18 0 00.79 5.25l15.3 101.91a12.36 12.36 0 0012.21 10.54h73a13.53 13.53 0 000-27.05h-55.91a5.62 5.62 0 01-5.53-4.8z"/>-->
+<!--      <path fill="#a67ee5" d="M151.78 154.92h-72l-2.13-14.19h68.47a9.92 9.92 0 019.9 9.93 4.26 4.26 0 01-4.25 4.25"/>-->
+<!--      <path fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="2" d="M151.78 154.92h-72l-2.13-14.19h68.47a9.92 9.92 0 019.9 9.93 4.26 4.26 0 01-4.24 4.26z"/>-->
+<!--      <path fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M97.08 90.54h57.49"/>-->
+<!--    </g>-->
+
+<!--    <g id="ficus" transform="translate(-300)">-->
+<!--      <path fill="#36e69a" d="M24.7 89.1A131 131 0 0140.29 116a255 255 0 01-20.08-23.55A259 259 0 013.14 66.57 131.72 131.72 0 0124.7 89.1M26.46 109.49a127.19 127.19 0 0122.8 20.49 242.09 242.09 0 01-25.84-15.71A235.86 235.86 0 010 95.57a119.82 119.82 0 0126.46 13.92M39.18 100.58a258.38 258.38 0 0010.08 29.39 125.63 125.63 0 00-4.5-30.52A135.9 135.9 0 0032.7 70.01a260.33 260.33 0 006.47 30.57">-->
+<!--        <animateTransform-->
+<!--          begin="ficus-transform.begin + 0.3s"-->
+<!--          attributeName="transform"-->
+<!--          type="rotate"-->
+<!--          values="0, 30, 300; 1.3, 30, 300; -1.3, 30, 300; 0, 30, 300; 0.6, 30, 300; -0.6, 30, 300; 0, 30, 300"-->
+<!--          dur="1s"-->
+<!--          additive="sum" />-->
+<!--      </path>-->
+<!--      <path fill="#25b774" d="M52.84 108.62a250.14 250.14 0 002.06 30.67 119.93 119.93 0 003.76-30.05 131.24 131.24 0 00-4-31.36 238.1 238.1 0 00-1.87 30.74M28.6 124.66a121.93 121.93 0 0126.29 14.64 225.91 225.91 0 01-28.16-9.2A228.11 228.11 0 01.36 117.41a113.61 113.61 0 0128.25 7.29M33.58 138.93a118.11 118.11 0 0127.56 11.17 211 211 0 01-28.78-5.6 220.87 220.87 0 01-27.42-9.33 114 114 0 0128.65 3.73">-->
+<!--        <animateTransform-->
+<!--          begin="ficus-transform.begin + 0.32s"-->
+<!--          attributeName="transform"-->
+<!--          type="rotate"-->
+<!--          values="0, 30, 300; 1.3, 30, 300; -1.3, 30, 300; 0, 30, 300; 0.6, 30, 300; -0.6, 30, 300; 0, 30, 300"-->
+<!--          dur="1s"-->
+<!--          additive="sum" />-->
+<!--      </path>-->
+<!--      <path fill="#25b774" d="M64.23 119.89a238 238 0 00-3.1 30.25 117.11 117.11 0 008.82-28.54 127.44 127.44 0 001.42-31.19 213.92 213.92 0 00-7.15 29.48">-->
+<!--        <animateTransform-->
+<!--          begin="ficus-transform.begin + 0.34s"-->
+<!--          attributeName="transform"-->
+<!--          type="rotate"-->
+<!--          values="0, 30, 300; 1.3, 30, 300; -1.3, 30, 300; 0, 30, 300; 0.6, 30, 300; -0.6, 30, 300; 0, 30, 300"-->
+<!--          dur="1s"-->
+<!--          additive="sum" />-->
+<!--      </path>-->
+<!--      <path fill="#068e4d" d="M44.38 157.1a118.24 118.24 0 0127.07 12.34 212.3 212.3 0 01-28.53-6.79 220.78 220.78 0 01-27-10.45 114.06 114.06 0 0128.46 4.9M75.79 139.39a236.56 236.56 0 00-4.34 30.1 116.94 116.94 0 0010-28.16 127.42 127.42 0 002.71-31.1 214.43 214.43 0 00-8.36 29.16M54.42 175.79a118.21 118.21 0 0126.54 13.47 213.62 213.62 0 01-28.23-8 221.65 221.65 0 01-26.55-11.57 113.82 113.82 0 0128.24 6.08">-->
+<!--        <animateTransform-->
+<!--          begin="ficus-transform.begin + 0.36s"-->
+<!--          attributeName="transform"-->
+<!--          type="rotate"-->
+<!--          values="0, 30, 300; 1.3, 30, 300; -1.3, 30, 300; 0, 30, 300; 0.6, 30, 300; -0.6, 30, 300; 0, 30, 300"-->
+<!--          dur="1s"-->
+<!--          additive="sum" />-->
+<!--      </path>-->
+<!--      <path fill="#068e4d" d="M86.52 159.36a236.09 236.09 0 00-5.58 29.9 117.46 117.46 0 0011.15-27.73 127.2 127.2 0 004-31 214.24 214.24 0 00-9.57 28.83">-->
+<!--        <animateTransform-->
+<!--          begin="ficus-transform.begin + 0.38s"-->
+<!--          attributeName="transform"-->
+<!--          type="rotate"-->
+<!--          values="0, 30, 300; 1.3, 30, 300; -1.3, 30, 300; 0, 30, 300; 0.6, 30, 300; -0.6, 30, 300; 0, 30, 300"-->
+<!--          dur="1s"-->
+<!--          additive="sum" />-->
+<!--      </path>-->
+<!--      <path fill="none" stroke="#36e69a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M38.14 112.77A529.26 529.26 0 0195 223.1">-->
+<!--        <animateTransform-->
+<!--          begin="ficus-transform.begin + 0.3s"-->
+<!--          attributeName="transform"-->
+<!--          type="rotate"-->
+<!--          values="0, 30, 300; 1, 30, 300; -1, 30, 300; 0, 30, 300; 0.5, 30, 300; -0.5, 30, 300; 0, 30, 300"-->
+<!--          dur="1s"-->
+<!--          additive="sum" />-->
+<!--      </path>-->
+<!--    </g>-->
+
+<!--    <line x1="17.55" x2="241.04" y1="224.1" y2="224.1" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" stroke-opacity="0">-->
+<!--      <animate-->
+<!--        begin="mountains.begin + 0.5s"-->
+<!--        attributeName="stroke-opacity"-->
+<!--        dur="0.1s"-->
+<!--        to="1"-->
+<!--        fill="freeze" />-->
+<!--    </line>-->
+
+<!--    <g clip-path="url(#a)" >-->
+<!--      <g id="clouds" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" transform="translate(0 65) scale(0.5 0.5)">-->
+<!--        <line x1="28.18" x2="91.09" y1="38.34" y2="38.34">-->
+<!--          <animateTransform-->
+<!--            begin="mountains.begin + 1s"-->
+<!--            attributeName="transform"-->
+<!--            type="translate"-->
+<!--            from="-10"-->
+<!--            to="30"-->
+<!--            dur="5s"-->
+<!--            repeatCount="indefinite" />-->
+<!--        </line>-->
+<!--        <path d="M1 28.08h35.29a12.4 12.4 0 1124.8 0h17.93" />-->
+<!--        <line x1="218.19" x2="257.97" y1="23.72" y2="23.72">-->
+<!--          <animateTransform-->
+<!--            begin="mountains.begin + 2s"-->
+<!--            attributeName="transform"-->
+<!--            type="translate"-->
+<!--            from="-20"-->
+<!--            to="20"-->
+<!--            dur="5s"-->
+<!--            repeatCount="indefinite" />-->
+<!--        </line>-->
+<!--        <path d="M237.98 13.45h-27.36a12.4 12.4 0 10-24.8 0h-17.94" />-->
+<!--        <line x1="246.24" x2="268.43" y1="13.45" y2="13.45" />-->
+<!--      </g>-->
+<!--    </g>-->
+<!--  </g>-->
+</svg>
